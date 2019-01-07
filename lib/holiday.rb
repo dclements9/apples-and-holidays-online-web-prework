@@ -78,11 +78,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_array = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, materials|
-        #materials.each do |mat|
-
       if materials.include? ("BBQ")
         holiday_array << holiday
-        #binding.pry
      end
   end
  end
