@@ -82,9 +82,9 @@ def all_holidays_with_bbq(holiday_hash)
 
       if materials.include? ("BBQ")
         holiday_array << holiday.to_s
-        binding.pry
+        #binding.pry
      end
   end
  end
-   holiday_array
+   #holiday_array
 end
