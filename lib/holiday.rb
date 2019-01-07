@@ -27,9 +27,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
   holiday_hash[:winter][:christmas] << supply
   holiday_hash[:winter][:new_years] << supply
-
 end
-
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
@@ -50,8 +48,6 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies_array << holiday_hash[:winter][:christmas]
   supplies_array << holiday_hash[:winter][:new_years]
   supplies_array.flatten
-
-
 end
 
 def all_supplies_in_holidays(holiday_hash)
